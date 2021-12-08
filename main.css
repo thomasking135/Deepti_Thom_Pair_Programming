@@ -1,1 +1,68 @@
 /* This is where we will add our CSS */
+
+body { 
+    background-color: rgb(176, 210, 248);
+
+}
+
+#bold {
+    font-weight: bold;
+  }
+
+#btn {
+    background-color: rgb(0, 0, 255); /* Green */
+    border: solid 2px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;        
+    font-size: x-large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; 
+}
+
+#btn:hover {
+    background-color: rgb(117, 226, 113);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+
+#fun {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px; 
+}
+
+h1 {
+    background-color: rgb(233, 192, 115);
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+    font-size: 50px;
+    height: 80px; 
+}
+
+h2 {
+    background-color: rgb(84, 155, 56);
+    color: white;
+    font-size: 30px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgb(233, 192, 115);
+    position: relative;
+    height: 50px;
+    width: 99%;
+    text-align: center;
+}
+
